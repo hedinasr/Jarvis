@@ -1,0 +1,19 @@
+{
+  "name": "jarvis",
+  "version": "1.0.0",
+  "description": "slack bot",
+  "main": "lib/jarvis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "bot"
+  ],
+  "author": "ananasr",
+  "license": "MIT",
+  "dependencies": {
+    "slackbots": "^0.5.3",
+    "sqlite3": "^3.1.6"
+  }
+}
