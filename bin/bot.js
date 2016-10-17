@@ -1,7 +1,13 @@
+'use strict';
+
 var Jarvis = require('../lib/jarvis');
 
+var token = process.env.BOT_API_KEY;
+
+console.log(token);
+
 var jarvisbot = new Jarvis({
-    token: API_TOKEN,
+    token: token,
     name: 'jarvis'
 });
 
